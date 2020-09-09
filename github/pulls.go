@@ -447,7 +447,7 @@ type PullRequestOptions struct {
 }
 
 type pullRequestMergeRequest struct {
-	CommitMessage string `json:"commit_message,omitempty"`
+	CommitMessage string `json:"commit_message"`
 	CommitTitle   string `json:"commit_title,omitempty"`
 	MergeMethod   string `json:"merge_method,omitempty"`
 	SHA           string `json:"sha,omitempty"`
